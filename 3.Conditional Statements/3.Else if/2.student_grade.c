@@ -8,6 +8,8 @@ void main()
     int roll,m1,m2,m3,total;
     char name[50];
     float percentage;
+    clrscr();
+
 
     printf("Enter Roll Number ::\n");
     scanf("%d",&roll);

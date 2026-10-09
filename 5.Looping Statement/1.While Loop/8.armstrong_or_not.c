@@ -6,6 +6,8 @@
 void main()
 {
     int n,temp,digit,sum=0;
+    clrscr();
+
 
     printf("Enter a Three Digit Number ::\n");
     scanf("%d",&n);

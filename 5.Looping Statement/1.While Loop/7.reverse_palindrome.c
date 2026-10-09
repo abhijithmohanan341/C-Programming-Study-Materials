@@ -6,6 +6,8 @@
 void main()
 {
     int n,temp,digit,rev=0;
+    clrscr();
+
 
     printf("Enter a Number ::\n");
     scanf("%d",&n);

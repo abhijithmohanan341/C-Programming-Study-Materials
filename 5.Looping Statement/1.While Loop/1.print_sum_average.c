@@ -7,6 +7,8 @@ void main()
 {
     int i,n,sum=0;
     float avg;
+    clrscr();
+
 
     printf("Enter the value of n::\n");
     scanf("%d",&n);

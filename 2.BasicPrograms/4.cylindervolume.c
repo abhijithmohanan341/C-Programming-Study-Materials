@@ -6,6 +6,8 @@
 void main()
 {
     float r, h, volume;
+    clrscr();
+
 
     printf("Enter Radius ::\n");
     scanf("%f",&r);

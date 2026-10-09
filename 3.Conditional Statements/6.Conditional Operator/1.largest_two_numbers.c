@@ -6,6 +6,8 @@
 void main()
 {
     int a,b,larger;
+    clrscr();
+
 
     printf("Enter Two Numbers ::\n");
     scanf("%d%d",&a,&b);

@@ -5,6 +5,7 @@
 void main()
 {
     int a,b,sum;
+    clrscr();
     printf("Enter Two Numbers ::\n");
     scanf("%d%d",&a,&b);
     sum=a+b;

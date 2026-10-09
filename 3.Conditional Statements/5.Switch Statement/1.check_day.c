@@ -6,6 +6,8 @@
 void main()
 {
     int day;
+    clrscr();
+
 
     printf("Enter Day Number (1-7) ::\n");
     scanf("%d",&day);

@@ -6,6 +6,8 @@
 void main()
 {
     int month;
+    clrscr();
+
 
     printf("Enter Month Number (1-12) ::\n");
     scanf("%d",&month);

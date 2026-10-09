@@ -8,6 +8,8 @@
 void main()
 {
     int ch,n;
+    clrscr();
+
 
     printf("1. Check Even or Odd\n");
     printf("2. Check Positive, Negative or Zero\n");

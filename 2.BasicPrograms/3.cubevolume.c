@@ -6,6 +6,8 @@
 void main()
 {
     float side, volume;
+    clrscr();
+
 
     printf("Enter Side ::\n");
     scanf("%f",&side);
