@@ -16,6 +16,7 @@ void main()
     {
         if(n%i==0)
         {
+            printf("%d\n",i);
             count++;
             break;
         }

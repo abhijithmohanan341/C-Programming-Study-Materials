@@ -1,4 +1,5 @@
-// Print digits and find sum of digits using while loop
+// Write a C program to print the digits of a number
+// and find the sum of digits using while loop.
 
 #include<stdio.h>
 #include<conio.h>
@@ -8,15 +9,8 @@ void main()
     int n,digit,sum=0;
     clrscr();
 
-
     printf("Enter a Number ::\n");
     scanf("%d",&n);
-
-    if(n<0)
-        n=-n;
-
-    if(n==0)
-        printf("0 ");
 
     while(n>0)
     {

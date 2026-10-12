@@ -5,7 +5,7 @@
 
 void main()
 {
-    int i,n,sum=0;
+    int i=1,n,sum=0;
     float avg;
     clrscr();
 
@@ -13,16 +13,14 @@ void main()
     printf("Enter the value of n::\n");
     scanf("%d",&n);
 
-    i=1;
-
     while(i<=n)
     {
-        printf("%d ",i);
+        printf("%d",i);
         sum=sum+i;
         i++;
     }
 
-    avg=(float)sum/n;
+    avg=sum/n;
 
     printf("\nSum :: %d",sum);
     printf("\nAverage :: %.2f",avg);
