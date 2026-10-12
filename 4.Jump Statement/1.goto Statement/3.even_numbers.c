@@ -14,19 +14,19 @@ void main()
 
     i=1;
 
-L1:
+L3:
     if(i<=n)
-        goto L2;
+        goto L1;
     else
-        goto L3;
+        goto L2;
 
-L2:
+L1:
     if(i%2==0)
         printf("%d ",i);
 
     i++;
-    goto L1;
+    goto L3;
 
-L3:
+L2:
     getch();
 }
