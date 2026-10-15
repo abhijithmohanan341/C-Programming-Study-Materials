@@ -7,7 +7,7 @@
 void main()
 {
     int a[50],pal[50],nonpal[50];
-    int n,i,temp,digit,rev,p=0,np=0;
+    int n,i,num,digit,rev,p=0,np=0;
 
     clrscr();
 
@@ -23,16 +23,16 @@ void main()
 
     for(i=0;i<n;i++)
     {
-        temp=a[i];
+        num=a[i];
         rev=0;
 
-        for(;temp>0;temp=temp/10)
+        for(;num>0;num=num/10)
         {
-            digit=temp%10;
+            digit=num%10;
             rev=rev*10+digit;
         }
 
-        if(a[i]>=0 && a[i]==rev)
+        if(a[i]==rev)
         {
             pal[p]=a[i];
             p++;
