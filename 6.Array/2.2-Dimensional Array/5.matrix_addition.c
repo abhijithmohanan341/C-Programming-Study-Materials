@@ -1,5 +1,5 @@
-
-/* Write a C program to add two matrices. */
+/* Write a C program to add two matrices.
+   Check whether rows and columns are equal. */
 
 #include<stdio.h>
 #include<conio.h>
@@ -37,11 +37,7 @@ void main()
         }
     }
 
-    if(r1!=r2 || c1!=c2)
-    {
-        printf("Matrix Addition Not Possible");
-    }
-    else
+    if(r1 == r2 && c1 == c2)
     {
         for(i=0;i<r1;i++)
         {
@@ -61,6 +57,11 @@ void main()
             }
             printf("\n");
         }
+    }
+    else
+    {
+        printf("Rows and Columns Are Not Equal");
+        printf("\nMatrix Addition Not Possible");
     }
 
     getch();
