@@ -18,7 +18,7 @@ void main()
     // 1. READING AND DISPLAYING A STRING
 
     printf("Enter a string :: ");
-    scanf("%s", str1);
+    scanf("%s", &str1);
 
     printf("String is %s\n", str1);
 
@@ -47,10 +47,10 @@ void main()
     // 5. COMPARING TWO STRINGS
 
     printf("\nEnter String-1 :: ");
-    scanf("%s", str1);
+    scanf("%s", &str1);
 
     printf("Enter String-2 :: ");
-    scanf("%s", str2);
+    scanf("%s", &str2);
 
     if(strcmp(str1, str2) == 0)
     {
@@ -65,10 +65,10 @@ void main()
     // 6. CONCATENATING TWO STRINGS
     
     printf("\nEnter String-1 :: ");
-    scanf("%s", str1);
+    scanf("%s", &str1);
 
     printf("Enter String-2 :: ");
-    scanf("%s", str2);
+    scanf("%s", &str2);
 
     strcat(str1, str2);
 

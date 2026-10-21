@@ -1,4 +1,5 @@
-// QUESTION: COUNT THE NUMBER OF VOWELS IN A STRING
+```c
+// QUESTION: COUNT AND PRINT EACH VOWEL IN A STRING
 
 #include<stdio.h>
 #include<conio.h>
@@ -6,7 +7,7 @@
 void main()
 {
     char str[50];
-    int i, count = 0;
+    int i, a = 0, e = 0, in = 0, o = 0, u = 0;
 
     clrscr();
 
@@ -17,16 +18,38 @@ void main()
 
     for(i = 0; str[i] != '\0'; i++)
     {
-        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||
-           str[i] == 'o' || str[i] == 'u' ||
-           str[i] == 'A' || str[i] == 'E' || str[i] == 'I' ||
-           str[i] == 'O' || str[i] == 'U')
+        if(str[i] == 'a' || str[i] == 'A')
         {
-            count++;
+            printf("a ");
+            a++;
+        }
+        else if(str[i] == 'e' || str[i] == 'E')
+        {
+            printf("e ");
+            e++;
+        }
+        else if(str[i] == 'i' || str[i] == 'I')
+        {
+            printf("i ");
+            in++;
+        }
+        else if(str[i] == 'o' || str[i] == 'O')
+        {
+            printf("o ");
+            o++;
+        }
+        else if(str[i] == 'u' || str[i] == 'U')
+        {
+            printf("u ");
+            u++;
         }
     }
 
-    printf("Number of Vowels is %d", count);
+    printf("\nNumber of a vowels is %d", a);
+    printf("\nNumber of e vowels is %d", e);
+    printf("\nNumber of i vowels is %d", in);
+    printf("\nNumber of o vowels is %d", o);
+    printf("\nNumber of u vowels is %d", u);
 
     getch();
 }
@@ -36,5 +59,11 @@ OUTPUT:
 
 Enter a string :: EDUCATION
 String is EDUCATION
-Number of Vowels is 5
+e u a i o
+Number of a vowels is 1
+Number of e vowels is 1
+Number of i vowels is 1
+Number of o vowels is 1
+Number of u vowels is 1
 */
+```

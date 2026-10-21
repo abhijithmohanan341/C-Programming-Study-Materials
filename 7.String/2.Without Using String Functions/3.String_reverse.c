@@ -11,7 +11,7 @@ void main()
     clrscr();
 
     printf("Enter a string :: ");
-    scanf("%s", str1);
+    scanf("%s", &str1);
 
     printf("Original String is %s\n", str1);
 
