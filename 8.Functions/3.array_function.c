@@ -27,6 +27,7 @@ void main()
     getch();
 }
 
+
 void sum(int a[],int n)
 {
     int i,s=0;
