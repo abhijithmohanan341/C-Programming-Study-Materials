@@ -10,15 +10,14 @@ void main()
     int ch,n;
     clrscr();
 
+    printf("Enter a Number ::\n");
+    scanf("%d",&n);
 
     printf("1. Check Even or Odd\n");
     printf("2. Check Positive, Negative or Zero\n");
 
     printf("Enter Your Choice ::\n");
     scanf("%d",&ch);
-
-    printf("Enter a Number ::\n");
-    scanf("%d",&n);
 
     switch(ch)
     {

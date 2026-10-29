@@ -5,7 +5,7 @@
 
 void main()
 {
-    int a[50],b[50],c[100];
+    int a[50],b[50];
     int n1,n2,i;
 
     clrscr();
@@ -32,19 +32,14 @@ void main()
 
     for(i=0;i<n1;i++)
     {
-        c[i]=a[i];
-    }
-
-    for(i=0;i<n2;i++)
-    {
-        c[n1+i]=b[i];
+        a[n1+i]=b[i];
     }
 
     printf("Merged Array :: ");
 
     for(i=0;i<n1+n2;i++)
     {
-        printf("%d ",c[i]);
+        printf("%d ",a[i]);
     }
 
     getch();
