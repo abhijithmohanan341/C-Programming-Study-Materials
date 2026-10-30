@@ -28,7 +28,7 @@ void main()
 }
 
 
-void sum(int a[],int n)
+void sum(int a[50],int n)
 {
     int i,s=0;
 

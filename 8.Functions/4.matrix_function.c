@@ -30,7 +30,7 @@ void main()
     getch();
 }
 
-void matrix(int a[][50],int r,int c)
+void matrix(int a[50][50],int r,int c)
 {
     int i,j;
 
