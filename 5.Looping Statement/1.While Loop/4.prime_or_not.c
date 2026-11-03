@@ -5,14 +5,14 @@
 
 void main()
 {
-    int n,i=2,count=0;
+    int n,i=1,count=0;
     clrscr();
 
 
     printf("Enter a Number ::\n");
     scanf("%d",&n);
 
-    while(i<n)
+    while(i<=n)
     {
         if(n%i==0)
         {
@@ -24,7 +24,7 @@ void main()
         i++;
     }
 
-    if(n>1 && count==0)
+    if(count==2)
     {
         printf("Prime Number");
     }  
